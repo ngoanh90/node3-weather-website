@@ -5,8 +5,6 @@ const { ESRCH } = require('constants')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-console.log(__dirname)
-console.log(path.join(__dirname, '../public'))
 const app = express()
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname,'../templates/views')
