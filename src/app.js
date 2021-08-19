@@ -68,7 +68,7 @@ app.get('/weather',(req, res) => {
                         })
                     }else {
                         return res.send({
-                            message: "Nhiet do hien tai o " + location + ' la ' + temperature
+                            message: "Forecast at " + location + ' is ' + temperature
                         })
                     }
                 })
